@@ -13,7 +13,7 @@ public class Compte {
     public void setSolde(int solde) {
         this.solde = solde;
     }
-    public void deposer(int somme){
+    public void deposerSomme(int somme){
         this.solde+=somme;// équivalent à solde = solde + somme
     }
     public int retirer(int somme){
@@ -21,7 +21,7 @@ public class Compte {
     }
     public int virer(int somme, Compte compteDestination)
     {
-        compteDestination.deposer(somme);
+        compteDestination.deposerSomme(somme);
         return this.retirer(somme);
     }
     @Override
@@ -33,7 +33,7 @@ public class Compte {
     {
         Compte c1=new Compte();
         System.out.println("Dépôt de 1000€");
-        c1.deposer(1000);
+        c1.deposerSomme(1000);
         System.out.println(c1);
         System.out.println("Retrait de 50€");
         c1.retirer(50);
