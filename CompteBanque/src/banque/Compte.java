@@ -1,7 +1,7 @@
 package banque;
 
 public class Compte {
-    private int solde;
+    protected int solde;
 
     public Compte()
     {
