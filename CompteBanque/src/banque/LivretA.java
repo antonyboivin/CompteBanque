@@ -25,7 +25,7 @@ public class LivretA extends Compte{
     {
         Compte c1=new LivretA();
         System.out.println("Dépôt de 100€");
-        c1.deposerSomme(100);
+        c1.deposer(100);
         System.out.println(c1);
         System.out.println("Retrait de 200€");
         c1.retirer(200);
