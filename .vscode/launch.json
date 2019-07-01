@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Compte",
+            "request": "launch",
+            "mainClass": "compteBanque/banque.Compte",
+            "projectName": "git_java_eclipse_6c01c4ac"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Hello",
             "request": "launch",
             "mainClass": "compteBanque/projetgit.Hello",
