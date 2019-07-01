@@ -24,4 +24,8 @@ public class Compte {
         compteDestination.deposer(somme);
         return this.retirer(somme);
     }
+    @Override
+    public String toString() {
+        return "Solde : "+solde;
+    }
 }
